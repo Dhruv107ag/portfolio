@@ -73,7 +73,7 @@ export default function Hero() {
           {/* Photo loaded from public/profile.jpg */}
           <div className="hero-image-placeholder">
             <img 
-              src="/profile.jpeg" 
+              src={`${import.meta.env.BASE_URL}profile.jpeg`} 
               alt="Dhruv Agrawal" 
               className="hero-photo"
               onError={(e) => {
