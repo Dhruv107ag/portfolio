@@ -1,0 +1,29 @@
+.string-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.guitar-string-svg {
+  width: 100%;
+  max-width: 1000px;
+  height: clamp(100px, 15vw, 150px);
+  cursor: grab;
+}
+
+.guitar-string-svg:active {
+  cursor: grabbing;
+}
+
+.string-subtitle {
+  color: var(--text-secondary);
+  font-family: monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  margin-top: -1rem;
+}
