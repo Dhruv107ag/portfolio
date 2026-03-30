@@ -12,7 +12,7 @@ export default function About() {
     {
       title: 'Languages',
       icon: <Code size={24} />,
-      items: ['C++', 'JavaScript', 'TypeScript', 'Python']
+      items: ['C', 'C++', 'Java', 'JavaScript', 'Python']
     },
     {
       title: 'Web Dev',
