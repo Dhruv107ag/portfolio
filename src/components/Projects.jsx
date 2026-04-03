@@ -13,11 +13,11 @@ export default function Projects() {
       live: '#'
     },
     {
-      title: 'Tic Tac Toe',
-      description: 'An interactive, fully responsive Tic Tac Toe game featuring smooth animations and an engaging user interface.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-      github: '#',
-      live: '#'
+      title: 'MediConnect',
+      description: 'A comprehensive healthcare platform connecting doctors and patients with real-time chat, appointment scheduling, and pharmacy management.',
+      tech: ['React', 'Node.js', 'Express', 'Socket.io'],
+      github: 'https://github.com/Dhruv107ag/MediConnect',
+      live: 'https://frontend-sandy-gamma-51.vercel.app/'
     },
     {
       title: 'To Do List',
