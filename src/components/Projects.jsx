@@ -16,8 +16,8 @@ export default function Projects() {
       title: 'MediConnect',
       description: 'A comprehensive healthcare platform connecting doctors and patients with real-time chat, appointment scheduling, and pharmacy management.',
       tech: ['React', 'Node.js', 'Express', 'Socket.io'],
-      github: 'https://github.com/Dhruv107ag/MediConnect',
-      live: 'https://frontend-sandy-gamma-51.vercel.app/'
+      github: 'https://github.com/Dhruv107ag/iit_delhi',
+      live: 'https://iit-delhi.vercel.app/'
     },
     {
       title: 'To Do List',
