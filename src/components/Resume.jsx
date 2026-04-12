@@ -22,10 +22,10 @@ export default function Resume() {
           </p>
           
           <div className="resume-actions">
-            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Dhruv_Agrawal_Resume.pdf" className="btn btn-primary">
+            <a href={`${import.meta.env.BASE_URL}resume dhruv agrawal.pdf`} download="Dhruv_Agrawal_Resume.pdf" className="btn btn-primary">
               <Download size={20} /> Download PDF
             </a>
-            <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noreferrer" className="btn btn-secondary">
+            <a href={`${import.meta.env.BASE_URL}resume dhruv agrawal.pdf`} target="_blank" rel="noreferrer" className="btn btn-secondary">
               <Eye size={20} /> Preview Online
             </a>
           </div>
